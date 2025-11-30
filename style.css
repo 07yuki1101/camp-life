@@ -124,7 +124,7 @@ section{
   display: block;
   opacity: 1;
   transform: translate(-50%,0);
-  
+  pointer-events: auto;
 }
 .card .card-img{
   width: 80%;
@@ -139,7 +139,7 @@ section{
   height: 100%;
   object-fit: cover;
 }
-#tent{
+.tent{
   object-position: bottom;
 }
 .card .card-text{
@@ -152,12 +152,8 @@ section{
   margin: 8px 0;
   
 }
-.card-text a{
-  display: block;
-  color: #f5f5f5;
-  cursor: pointer;
-  pointer-events: auto;
-  z-index: 100;
+.card-text .p2{
+  font-size: 16px;
 }
 
 .catalog ul{
