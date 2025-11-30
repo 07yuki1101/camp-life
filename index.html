@@ -20,16 +20,16 @@
         <img src="pic/main/cook.jpeg" alt="" class="slide">
         <img src="pic/main/evening.JPG" alt="" class="slide">
         <img src="pic/main/night.jpeg" alt="" class="slide">
-      </div>    
+      </div>
     </div>
 
     <section class="profile">
-      <h2 class="section-title">Profile</h2>
+      <h2 class="section-title fade-in">Profile</h2>
       <div class="container">
-        <div class="prof-img">
+        <div class="prof-img fade-in">
           <img src="pic/lani.JPG" alt="">
         </div>
-        <div class="text">
+        <div class="text fade-in">
           <h3>Yuki Suzuki</h3>
           <table>
             <tr>
@@ -52,73 +52,91 @@
 
     </section>
     <section class="catalog">
-      <h2 class="section-title">My Recommended Gear</h2>
+      <h2 class="section-title fade-in">My Recommended Gear</h2>
+      <div class="card-wrapper fade-in">
 
-      <div class="card current" data-id="tent">
-        <div class="card-img">
-          <img src="pic/tent.jpg" alt="テント" id="tent">
-        </div>
-        <div class="card-text">
-          <p>Snow Peak</p>
-          <a href="">Entry 2 Room Elfield</a>
-        </div>  
-      </div>
-      <div class="card" data-id="firepit">
-        <div class="card-img">
-          <img src="pic/firepit.jpg" alt="焚き火台" >
-        </div>
-        <div class="card-text">
-          <p>Alpen outdoors</p>
-          <a href="">フォールディングファイヤーピット</a>
-        </div>  
-      </div>
-      <div class="card" data-id="sleepbag">
-        <div class="card-img">
-          <img src="pic/sleepbag.jpg" alt="寝袋" >
-        </div>
-        <div class="card-text">
-          <p>mont･bell</p>
-          <a href="">ダウンバガー 650</a>
-        </div>  
-      </div>
-      <div class="card" data-id="table">
-        <div class="card-img">
-          <img src="pic/table.jpg" alt="テーブル" >
-        </div>
-        <div class="card-text">
-          <p>FIELDOOR</p>
-          <a href="">ウッドロールトップテーブル</a>
-        </div>  
-      </div>
-      <div class="card" data-id="chair">
-        <div class="card-img">
-          <img src="pic/chair.jpg" alt="チェア" >
-        </div>
-        <div class="card-text">
-          <p>Coleman</p>
-          <a href="">ヒーリングチェア</a>
-        </div>  
-      </div>
-      <div class="card" data-id="lantan">
-        <div class="card-img">
-          <img src="pic/lantan.jpg" alt="ランタン" >
-        </div>
-        <div class="card-text">
-          <p>FEUERHAND</p>
-          <a href="">ベイビースペシャル276</a>
-        </div>  
-      </div>
-      
-      <ul>       
-        <li><div class="list"><img src="pic/tent.jpg" alt="" id="tent" ></div></li>
-        <li><div class="list"><img src="pic/firepit.jpg" alt="" id="firepit"></div></li>
-        <li><div class="list"><img src="pic/sleepbag.jpg" alt="" id="sleepbag"></div></li>
-        <li><div class="list"><img src="pic/table.jpg" alt="" id="table"></div></li>
-        <li><div class="list"><img src="pic/chair.jpg" alt="" id="chair"></div></li>
-        <li><div class="list"><img src="pic/lantan.jpg" alt="" id="lantan"></div></li>
-      </ul>
 
+        <div class="card current " data-id="tent">
+          <div class="card-img">
+            <img src="pic/tent.jpg" alt="テント" >
+          </div>
+          <div class="card-text">
+            <p>Snow Peak</p>
+            <a href="https://www.snowpeak.co.jp/sp/entryline/2room/">Entry 2 Room Elfield</a>
+          </div>
+        </div>
+        <div class="card" data-id="firepit">
+          <div class="card-img">
+            <img src="pic/firepit.jpg" alt="焚き火台">
+          </div>
+          <div class="card-text">
+            <p>Alpen outdoors</p>
+            <a href="https://store.shopping.yahoo.co.jp/alpen-group/7422090001.html">フォールディングファイヤーピット</a>
+          </div>
+        </div>
+        <div class="card" data-id="sleepbag">
+          <div class="card-img">
+            <img src="pic/sleepbag.jpg" alt="寝袋">
+          </div>
+          <div class="card-text">
+            <p>mont･bell</p>
+            <a href="">ダウンバガー 650</a>
+          </div>
+        </div>
+        <div class="card" data-id="table">
+          <div class="card-img">
+            <img src="pic/table.jpg" alt="テーブル">
+          </div>
+          <div class="card-text">
+            <p>FIELDOOR</p>
+            <a href="">ウッドロールトップテーブル</a>
+          </div>
+        </div>
+        <div class="card" data-id="chair">
+          <div class="card-img">
+            <img src="pic/chair.jpg" alt="チェア">
+          </div>
+          <div class="card-text">
+            <p>Coleman</p>
+            <a href="">ヒーリングチェア</a>
+          </div>
+        </div>
+        <div class="card" data-id="lantan">
+          <div class="card-img">
+            <img src="pic/lantan.jpg" alt="ランタン">
+          </div>
+          <div class="card-text">
+            <p>FEUERHAND</p>
+            <a href="">ベイビースペシャル276</a>
+          </div>
+        </div>
+      </div>
+      <section class="thumb fade-in">
+        <ul>
+          <li>
+            <div class="list"><img src="pic/tent.jpg" alt="" data-id="tent" class="list-img"></div>
+          </li>
+          <li>
+            <div class="list"><img src="pic/firepit.jpg" alt="" data-id="firepit" class="list-img"></div>
+          </li>
+          <li>
+            <div class="list"><img src="pic/sleepbag.jpg" alt="" data-id="sleepbag" class="list-img"></div>
+          </li>
+          <li>
+            <div class="list"><img src="pic/table.jpg" alt="" data-id="table" class="list-img"></div>
+          </li>
+          <li>
+            <div class="list"><img src="pic/chair.jpg" alt="" data-id="chair" class="list-img"></div>
+          </li>
+          <li>
+            <div class="list"><img src="pic/lantan.jpg" alt="" data-id="lantan" class="list-img"></div>
+          </li>
+        </ul>
+      </section>
       
+
+
+
     </section>
 
   </main>
